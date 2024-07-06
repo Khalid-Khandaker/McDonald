@@ -1,0 +1,146 @@
+.meals-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    width: 100%;
+    height: 45px;
+
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.meals-header-container p{
+
+    margin: 0px 12px;
+
+    font-weight: 500;
+
+    height: 100%;
+
+    align-content: center;
+
+    cursor: pointer;
+
+    transition: background-color 0.25s;
+}
+
+.meals-header-container div:hover{
+    
+    background-color: #f1f1f1;
+
+}
+
+.meals-body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.meals-category-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 1280px;
+
+    margin-top: 50px;
+}
+
+.meals-category-title-container p {
+    margin: 0px;
+
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.meals-encouragement-container p {
+    margin: 0px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.meals-grid-container {
+    display: grid;
+    
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+
+    column-gap: 16px;
+    row-gap: 16px;
+
+    padding-top: 20px;
+}
+
+.meal-container {
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background-color: #f1f1f1;
+
+    padding: 10px;
+
+    transition: box-shadow 0.12s, transform 0.12s;
+
+    cursor: pointer;
+}
+
+.meal-container:hover {
+    box-shadow: 2px 4px 12px silver;
+    transform: scale(1.02);
+}
+
+.meal-background-container {
+    width: 100%;
+    height: 175px;
+
+    overflow: hidden;
+}
+
+.meal-background-container img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.meal-description-container {
+    width: 100%;
+    height: 75px;
+
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.meal-description-container p {
+    margin: 0;
+
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.meal-price {
+    width: 100%;
+    height: 45px;
+}
+
+.meal-price p {
+    margin: 0;
+    margin-top: 10px;
+
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+                    
